@@ -1,6 +1,9 @@
 from mean import *
 
 def test_ints():
+
+# test caculating the mean of ints
+
     num_list = [1,2,3,4,5]
     obs = mean(num_list)
     exp = 3
